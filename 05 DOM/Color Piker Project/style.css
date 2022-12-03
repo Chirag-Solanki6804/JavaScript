@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+.red {
+  background-color: red;
+}
+.cyan {
+  background-color: cyan;
+}
+.violet {
+  background-color: violet;
+}
+.orange {
+  background-color: orange;
+}
+.pink {
+  background-color: pink;
+}
+
+.color {
+  width: 80px;
+  height: 30px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  float: left;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.center {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 37%;
+  margin-top: 10%;
+}

@@ -1,0 +1,61 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+body {
+  background-image: url(third4k.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+#main {
+  font-style: italic;
+  font-family: "Poppins";
+  font-size: larger;
+  background: transparent;
+  margin-left: 900px;
+  position: fixed;
+  margin-top: 100px;
+  padding: 50px;
+  padding-bottom: 120px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  color: white;
+  /* border: 1px solid white; */
+  border-radius: 5%;
+  box-shadow: 5px 5px 9px 9px #888888;
+}
+#main:hover {
+  width: 310px;
+  height: 310px;
+}
+#login {
+  border-radius: 1cm;
+  background-color: #6495ed;
+  /* background: transparent; */
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  color: white;
+  /* border: 1px solid black; */
+}
+#email {
+  background: transparent;
+  width: 300px;
+  height: 35px;
+  color: white;
+  /* background-color: white; */
+  /* border: 1px solid black; */
+}
+#password {
+  background: transparent;
+  width: 235px;
+  height: 35px;
+  color: white;
+  /* border: 1px solid black; */
+}
+#passwordshowhide {
+  background: transparent;
+  color: #888888;
+}

@@ -1,0 +1,81 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(imgs/snow.jpg);
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+}
+
+.app-main {
+  border-radius: 5%;
+  background: transparent;
+  box-shadow: 5px 5px 9px 9px whitesmoke;
+  width: 49vh;
+  margin: 100px auto;
+  background-color: rgba(240, 248, 255, 0.6);
+  padding: 20px;
+  text-align: center;
+}
+.app-main:hover {
+  width: 51vh;
+  height: min-content;
+}
+
+.app-main > * {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  outline: none;
+  color: #582233;
+  font-size: 1.2em;
+  height: 50px;
+  border-radius: 5px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.input-box:focus {
+  background-color: white;
+}
+
+.weather-body {
+  display: none;
+  color: #582233;
+  padding: 20px;
+  line-height: 2em;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 50vh;
+}
+
+.location-datail {
+  font-weight: bold;
+}
+
+.weather-status {
+  padding: 20px;
+}
+
+.temp {
+  font-size: 50pt;
+  font-weight: 700;
+  margin: 20px 0;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max,
+.weather {
+  font-size: 12pt;
+  font-weight: 600;
+}
