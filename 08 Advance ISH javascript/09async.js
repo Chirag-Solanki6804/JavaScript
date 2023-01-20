@@ -16,5 +16,5 @@ const tres = () => {
 }
 
 one();
-two();
-Three();
+dos();
+tres();
