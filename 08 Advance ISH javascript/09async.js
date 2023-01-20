@@ -15,6 +15,6 @@ const tres = () => {
     console.log("I am Three");
 }
 
-one();
+uno();
 dos();
 tres();
